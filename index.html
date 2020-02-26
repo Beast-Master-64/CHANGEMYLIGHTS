@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>change my lights!</title>
+        <style>
+            body {
+                font-family: "Trade Winds", Helvetica, sans-serif;
+                background-color: aqua;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            section {
+                display: flex;
+                width: 600PX;
+                margin: 0 auto;
+            }
+
+            .led {
+                width: 50px;
+                height: 50px;
+                background-color: rgb(255, 255, 255);
+                border: solid 3px rgba(0, 0, 0, 1);
+                margin: 10px;
+                border-radius: 25px;
+            }
+
+            .on {
+                background-color: rgba(233, 24, 17, 0.856);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>CHANGE MY LIGHTS!</h1>
+        <main>
+
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+            <section>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+                <div class="led"></div>
+            </section>
+        </main>
+        <script>
+            document.querySelector("main").addEventListener("click", function (e) {
+                if (e.target.classList.contains("led")) {
+                    e.target.classList.toggle("on");
+                }
+            })
+        </script>
+    </body>
+
+</html>
